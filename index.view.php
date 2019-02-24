@@ -7,9 +7,10 @@
         <title>PHP Learning</title>
     </head>
     <body>
+        <h1>Task for the Day</h1>
         <ul>
-            <?php foreach ($person as $feature => $value) :?>
-                <li><strong><?= $feature; ?></strong><?= $value; ?></li>
+            <?php foreach ($task as $feature => $value) :?>
+                <li><strong><?= ucwords($feature); ?>: </strong><?= $value; ?></li>
             <?php endforeach; ?>
         </ul>
     </body>
