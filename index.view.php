@@ -9,9 +9,18 @@
     <body>
         <h1>Task for the Day</h1>
         <ul>
-            <?php foreach ($task as $feature => $value) :?>
-                <li><strong><?= ucwords($feature); ?>: </strong><?= $value; ?></li>
-            <?php endforeach; ?>
+            <li>
+                <strong> Name: </strong> <?= $task['title']; ?>
+            </li>
+            <li>
+                <strong>Due Date: </strong> <?= $task['due']; ?>
+            </li>
+            <li>
+                <strong>Personal Responsible: </strong> <?= $task['assigned_to']; ?>
+            </li>
+            <li>
+                <strong>Status: </strong> <?= $task['completed'] ? 'Complete' : 'Incomplete'; ?>
+            </li>
         </ul>
     </body>
 </html>
