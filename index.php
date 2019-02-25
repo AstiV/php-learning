@@ -1,5 +1,9 @@
 <?php
 
+// To run this project, cd into directory 'php-learning'
+// > php -S localhost:8888
+
+
 // //-----------------------------------
 // // Arrays
 // //-----------------------------------
