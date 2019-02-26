@@ -81,13 +81,23 @@
 //htmlspecialchars();
 //ucwords();
 
+//$animals = ['dog', 'cat'];
+////// dd - for dump and die
+////function dd($data) {
+////    echo '<pre>';
+////    die(var_dump($data));
+////    echo '<pre>';
+////}
+////dd($animals);
+
+// //-------------------------------------
+// // Isolate functions to separate file
+// //-------------------------------------
+
+require 'functions.php';
+
 $animals = ['dog', 'cat'];
-// dd - for dump and die
-function dd($data) {
-    echo '<pre>';
-    die(var_dump($data));
-    echo '<pre>';
-}
 dd($animals);
+
 
 require 'index.view.php';
