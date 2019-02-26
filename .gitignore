@@ -1,0 +1,7 @@
+# Mac specific files
+*/.DS_Store
+.DS_Store
+.DS_Store?
+
+# PhpStorm project files and directories
+.idea/*
