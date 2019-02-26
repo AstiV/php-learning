@@ -66,14 +66,28 @@
 // // Associative Arrays - exercise
 // //-------------------------------
 
-$task = [
-    'title' => 'Go grocery shopping',
-    'due' => 'Monday',
-    'assigned_to' => 'me',
-    'completed' => false
-];
+//$task = [
+//    'title' => 'Go grocery shopping',
+//    'due' => 'Monday',
+//    'assigned_to' => 'me',
+//    'completed' => false
+//];
 
+// //-------------
+// // Functions
+// //-------------
 
+//built-in functions
+//htmlspecialchars();
+//ucwords();
 
+$animals = ['dog', 'cat'];
+// dd - for dump and die
+function dd($data) {
+    echo '<pre>';
+    die(var_dump($data));
+    echo '<pre>';
+}
+dd($animals);
 
 require 'index.view.php';
