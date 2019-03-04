@@ -94,10 +94,23 @@
 // // Isolate functions to separate file
 // //-------------------------------------
 
+//require 'functions.php';
+//
+//$animals = ['dog', 'cat'];
+//dd($animals);
+
+// //-------------------------
+// // Exercise - Age checker
+// //-------------------------
+
+// Check if a person is allowed to a nightclub.
+// Age below 21, not allowed
+// Age above 21 allowed
+// Function that accepts one parameter => age
+// use cond. in function (if else) return a boolean
+
 require 'functions.php';
 
-$animals = ['dog', 'cat'];
-dd($animals);
 
 
 require 'index.view.php';
